@@ -8,13 +8,24 @@ h2 {
     color: gray;
 }
 
+ul {
+    list-style-type: none; 
+
+    li {
+        padding-top: 10px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+}
+
 nav {
     background-color: black;
     text-align: right;
     padding: 10px;
 
     ul {
-        list-style-type: none;
         padding: 0px;
     }
 
@@ -23,7 +34,6 @@ nav {
         }
 
         a {
-            text-decoration: none;
             color: white;
             text-transform: uppercase;
             font-size: $nav-font-size;
