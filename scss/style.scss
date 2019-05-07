@@ -24,6 +24,7 @@ nav {
     background-color: black;
     text-align: right;
     padding: 10px;
+    position: relative;
 
     ul {
         padding: 0px;
@@ -40,4 +41,16 @@ nav {
             padding: 20px;
         }
 
+}
+
+main {
+    width: 70%;
+    text-align: justify;
+    position: absolute;
+    top: 230px; //ne razumem zasto nije primenio position absolute u odnosu na navigaciju koja je position relative i onda u odnosu na nju top:20px npr
+    right: 20px;
+
+    h1 {
+        text-align: right;
+    }
 }
