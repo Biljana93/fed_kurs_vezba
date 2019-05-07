@@ -2,10 +2,21 @@
 
 * {
     font-family: $main-font;
+    margin: 0;
+}
+
+header {
+    background-image: url("../img/header.jpg");
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+    padding-bottom: 10px;
 }
 
 h2 {
-    color: gray;
+    color: lightgray;
 }
 
 ul {
